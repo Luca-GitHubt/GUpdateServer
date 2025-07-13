@@ -1,1 +1,15 @@
+add Inspire/chara/+SonicEVRoot.ar.00
+add Inspire/chara/+SonicEVRoot.arl
+add +#ActD_SubSnow_02.ar.00
+add +#ActD_SubSnow_02.arl
+add +#ActionCommon.ar.00
+add +#ActionCommon.arl
+add +#ActN_SubMykonos_04.ar.00
+add +#ActN_SubMykonos_04.arl
+add +#BossDarkGaia1_1Air.ar.00
+add +#BossDarkGaia1_1Air.arl
+add +#Sonic.ar.00
+add +#Sonic.arl
+add +#Town_Common.ar.00
+add +#Town_Common.arl
 add mod.ini
