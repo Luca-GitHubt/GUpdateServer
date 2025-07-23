@@ -50,6 +50,7 @@ add DriftVersion/Tight/+#Sonic.ar.00
 add DriftVersion/Tight/+#Sonic.arl
 add DriftVersion/Tight/+#Town_Common.ar.00
 add DriftVersion/Tight/+#Town_Common.arl
+add None/Dummy Folder.txt
 add config.json
 add Credits.txt
 add mod.ini
