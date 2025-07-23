@@ -1,5 +1,5 @@
-delete Inspire/chara/+SonicEVRoot.ar.00
-delete Inspire/chara/+SonicEVRoot.arl
+delete /Inspire/chara/+SonicEVRoot.ar.00
+delete /Inspire/chara/+SonicEVRoot.arl
 delete +#ActD_SubSnow_02.ar.00
 delete +#ActD_SubSnow_02.arl
 delete +#ActionCommon.ar.00
@@ -8,6 +8,10 @@ delete +#ActN_SubMykonos_04.ar.00
 delete +#ActN_SubMykonos_04.arl
 delete +#BossDarkGaia1_1Air.ar.00
 delete +#BossDarkGaia1_1Air.arl
+delete +#EvilActionCommon.ar.00
+delete +#EvilActionCommon.arl
+delete +#EvilSonic.ar.00
+delete +#EvilSonic.arl
 delete +#Sonic.ar.00
 delete +#Sonic.arl
 delete +#Town_Common.ar.00
