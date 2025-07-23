@@ -1,6 +1,6 @@
 ## Momentum-Based Physics DX V1.3
 - The FOV when boosting has been increased slightly.
-- The camera in 2D is now a Little further away.
+- The camera in 2D is now a little further away.
 - I added custom configuration options to the mod! You can now enable or disable any of my extra content i included and choose between 2 types of drifts i've provided.
 
 ## Momentum-Based Physics DX V1.2
