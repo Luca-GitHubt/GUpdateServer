@@ -70,7 +70,7 @@
             "DisplayName":"Tight",
             "Value":"./DriftVersion/Tight/",
             "Description":[
-               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is to fast or too hard to control, try the ''Cinematic'' version."
+               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is too fast or too hard to control, try the ''Cinematic'' version."
             ]
          }
       ],
