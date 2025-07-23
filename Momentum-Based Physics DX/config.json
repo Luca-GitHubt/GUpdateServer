@@ -1,0 +1,127 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Main Options",
+         "Elements":[
+			   {
+               "Name":"IncludeDir0",
+               "DisplayName":"Drift Style",
+               "Description":[
+                  "Select which style of the Drift you wanna use."
+               ],
+               "Type":"Dir0",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./DriftVersion/Cinematic/"
+            }
+         ]
+      },
+      {
+        "Name": "Main",
+        "DisplayName": "Bonus Content",
+        "Elements": [
+            {
+			      "Name":"IncludeDir1",
+               "DisplayName":"Modern Sonic Color Palette",
+               "Description":[
+                  "Select which extras you would like to toggle."
+               ],
+               "Type":"Dir1",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./None/"
+            },
+            {
+			      "Name":"IncludeDir2",
+               "DisplayName":"Wherehog Improved Physics",
+               "Description":[
+                  "Select which extras you would like to toggle."
+               ],
+               "Type":"Dir2",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./None/"
+            },
+            {
+			      "Name":"IncludeDir3",
+               "DisplayName":"2x Gaia Colossus Speed",
+               "Description":[
+                  "Select which extras you would like to toggle."
+               ],
+               "Type":"Dir3",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./None/"
+            }
+         ]
+      }
+   ],
+   "Enums":{
+      "Dir0":[
+         {
+            "DisplayName":"Cinematic",
+            "Value":"./DriftVersion/Cinematic/",
+            "Description":[
+               "This version is more loose and more comfortable to control but can be harder to master and doesn't feel as responsive at lower speeds. Choose the ''Tight'' version if you feel like this drift isn't responsive enough."
+            ]
+         },
+		   {
+            "DisplayName":"Tight",
+            "Value":"./DriftVersion/Tight/",
+            "Description":[
+               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is to fast or too hard to control, try the ''Cinematic'' version."
+            ]
+         }
+      ],
+      "Dir1":[
+         {
+            "DisplayName":"Enabled",
+            "Value":"./BonusContent/HedgehogModernColor/",
+            "Description":[
+               "Changes sonic's fur to a more neutral coloring and his shoes to a darker red like Sonic Team's current coloring"
+            ]
+         },
+         {
+            "DisplayName":"Disabled",
+            "Value":"./None/",
+            "Description":[
+               "Changes sonic's fur to a more neutral coloring and his shoes to a darker red like Sonic Team's current coloring"
+            ]
+         }
+      ],
+      "Dir2": [
+         {
+            "DisplayName":"Enabled",
+            "Value":"./BonusContent/WherehogImprovedPhysics/",
+            "Description":[
+               "Slightly improves the Werehogs controls like a slightly higher double jump, a farther dash jump, way less ice slippering, infinite EXP orb collect range and higher quality fur."
+            ]
+         },
+         {
+            "DisplayName":"Disabled",
+            "Value":"./None/",
+            "Description":[
+               "Slightly improves the Werehogs controls like a slightly higher double jump, a farther dash jump, way less ice slippering, infinite EXP orb collect range and higher quality fur."
+            ]
+         }
+      ],
+      "Dir3": [
+		   {
+            "DisplayName":"Enabled",
+            "Value":"./BonusContent/DoubleSpeedGaiaColossus/",
+            "Description":[
+               "Makes the Gaia Colossus's speed twice as fast when closing in on Dark Gaia."
+            ]
+         },
+         {
+            "DisplayName":"Disabled",
+            "Value":"./None/",
+            "Description":[
+               "Makes the Gaia Colossus's speed twice as fast when closing in on Dark Gaia."
+            ]
+         }
+      ]
+   },
+   "IniFile":"mod.ini"
+}
