@@ -1,3 +1,6 @@
+## Momentum-Based Physics DX V1.3.1
+- Fixed an issue with the mod.ini file because the Gaia Colossus's Speed Option wouldn't turn off, even if you disabled it.
+
 ## Momentum-Based Physics DX V1.3
 - The FOV when boosting has been increased slightly.
 - The camera in 2D is now a little further away.
