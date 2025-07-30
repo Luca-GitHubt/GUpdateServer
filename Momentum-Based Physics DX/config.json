@@ -14,6 +14,39 @@
                "MinValue":null,
                "MaxValue":null,
                "DefaultValue":"./DriftVersion/Cinematic/"
+            },
+            {
+               "Name":"IncludeDir1",
+               "DisplayName":"Camera",
+               "Description":[
+                  "Select which camera style you want to use."
+               ],
+               "Type":"Dir1",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./CameraSettings/"
+            },
+            {
+               "Name":"IncludeDir2",
+               "DisplayName":"Unscripted Day-Time Levels",
+               "Description":[
+                  "Choose if you want to use edited levels which removes many scripted segments fom the main levels. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
+               ],
+               "Type":"Dir2",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./UnscriptedLevels/"
+            },
+            {
+               "Name":"IncludeDir3",
+               "DisplayName":"Unscripted DLC Day-Time Levels",
+               "Description":[
+                  "Choose if you want to use edited levels which removes many scripted segments fom the DLC levels. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
+               ],
+               "Type":"Dir3",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"./UnscriptedDLCLevels/"
             }
          ]
       },
@@ -22,34 +55,34 @@
         "DisplayName": "Bonus Content",
         "Elements": [
             {
-			      "Name":"IncludeDir1",
+			      "Name":"IncludeDir4",
                "DisplayName":"Modern Sonic Color Palette",
                "Description":[
                   "Select which extras you would like to toggle."
                ],
-               "Type":"Dir1",
+               "Type":"Dir4",
                "MinValue":null,
                "MaxValue":null,
                "DefaultValue":"./None/"
             },
             {
-			      "Name":"IncludeDir2",
+			      "Name":"IncludeDir5",
                "DisplayName":"Wherehog Improved Physics",
                "Description":[
                   "Select which extras you would like to toggle."
                ],
-               "Type":"Dir2",
+               "Type":"Dir5",
                "MinValue":null,
                "MaxValue":null,
                "DefaultValue":"./None/"
             },
             {
-			      "Name":"IncludeDir3",
+			      "Name":"IncludeDir6",
                "DisplayName":"2x Gaia Colossus Speed",
                "Description":[
                   "Select which extras you would like to toggle."
                ],
-               "Type":"Dir3",
+               "Type":"Dir6",
                "MinValue":null,
                "MaxValue":null,
                "DefaultValue":"./None/"
@@ -59,6 +92,13 @@
    ],
    "Enums":{
       "Dir0":[
+         {
+            "DisplayName":"No Physics Changes",
+            "Value":"./None/",
+            "Description":[
+               "If you don't wanna play with any changes to sonic's physics... for some reason. >_>"
+            ]
+         },
          {
             "DisplayName":"Cinematic",
             "Value":"./DriftVersion/Cinematic/",
@@ -77,6 +117,54 @@
       "Dir1":[
          {
             "DisplayName":"Enabled",
+            "Value":"./CameraSettings/",
+            "Description":[
+               "Puts the camera farther away for both 3D and 2D so you have a better view and increases the FOV a little."
+            ]
+         },
+		   {
+            "DisplayName":"Disabled",
+            "Value":"./None/",
+            "Description":[
+               "Disable any changes to the camera."
+            ]
+         }
+      ],
+      "Dir2":[
+         {
+            "DisplayName":"Enabled",
+            "Value":"./UnscriptedLevels/",
+            "Description":[
+               "Choose if you want to use edited levels which removes most scripted segments. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)"
+            ]
+         },
+		   {
+            "DisplayName":"Disabled",
+            "Value":"./None/",
+            "Description":[
+               "Choose if you want to use edited levels which removes most scripted segments. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)"
+            ]
+         }
+      ],
+      "Dir3":[
+         {
+            "DisplayName":"Enabled",
+            "Value":"./UnscriptedDLCLevels/",
+            "Description":[
+               "Choose if you want to use edited levels which removes many scripted segments fom the DLC levels. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
+            ]
+         },
+		   {
+            "DisplayName":"Disabled",
+            "Value":"./None/",
+            "Description":[
+               "Choose if you want to use edited levels which removes many scripted segments fom the DLC levels. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
+            ]
+         }
+      ],
+      "Dir4":[
+         {
+            "DisplayName":"Enabled",
             "Value":"./BonusContent/HedgehogModernColor/",
             "Description":[
                "Changes sonic's fur to a more neutral coloring and his shoes to a darker red like Sonic Team's current coloring"
@@ -90,7 +178,7 @@
             ]
          }
       ],
-      "Dir2": [
+      "Dir5": [
          {
             "DisplayName":"Enabled",
             "Value":"./BonusContent/WherehogImprovedPhysics/",
@@ -106,7 +194,7 @@
             ]
          }
       ],
-      "Dir3": [
+      "Dir6": [
 		   {
             "DisplayName":"Enabled",
             "Value":"./BonusContent/DoubleSpeedGaiaColossus/",
