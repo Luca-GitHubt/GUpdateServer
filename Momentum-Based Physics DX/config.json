@@ -6,7 +6,7 @@
          "Elements":[
 			   {
                "Name":"IncludeDir0",
-               "DisplayName":"Drift Style",
+               "DisplayName":"Drift + Speed Style",
                "Description":[
                   "Select which style of the Drift you wanna use."
                ],
@@ -100,17 +100,39 @@
             ]
          },
          {
-            "DisplayName":"Cinematic",
+            "DisplayName":"Cinematic Drift (Sonic Speed)",
             "Value":"./DriftVersion/Cinematic/",
             "Description":[
-               "This version is more loose and more comfortable to control but can be harder to master and doesn't feel as responsive at lower speeds. Choose the ''Tight'' version if you feel like this drift isn't responsive enough."
+               "This version is more loose and more comfortable to control but can be harder to master and doesn't feel as responsive at lower speeds. Choose the ''Tight'' version if you feel like this drift isn't responsive enough.",
+               "",
+               "Sonic's starting speed when boosting and air boosting is a little lower than normal but in return, he can reach speeds of exactly mach 1! (767 mph)"
+            ]
+         },
+         {
+            "DisplayName":"Cinematic Drift (Mainline Speed)",
+            "Value":"./DriftVersion/CinematicMainline/",
+            "Description":[
+               "This version is more loose and more comfortable to control but can be harder to master and doesn't feel as responsive at lower speeds. Choose the ''Tight'' version if you feel like this drift isn't responsive enough.",
+               "",
+               "Sonic's starting speed when boosting and air boosting is unchanged but in return he can't reach sonic speed anymore. (He's still get's affected by slopes and uneven terrain."
             ]
          },
 		   {
-            "DisplayName":"Tight",
+            "DisplayName":"Tight Drift         (Sonic Speed)",
             "Value":"./DriftVersion/Tight/",
             "Description":[
-               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is too fast or too hard to control, try the ''Cinematic'' version."
+               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is too fast or too hard to control, try the ''Cinematic'' version.",
+               "",
+               "Sonic's starting speed when boosting and air boosting is a little lower than normal but in return, he can reach speeds of exactly mach 1! (767 mph)"
+            ]
+         },
+		   {
+            "DisplayName":"Tight Drift         (Mainline Speed)",
+            "Value":"./DriftVersion/TightMainline/",
+            "Description":[
+               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is too fast or too hard to control, try the ''Cinematic'' version.",
+               "",
+               "Sonic's starting speed when boosting and air boosting is unchanged but in return he can't reach sonic speed anymore. (He's still get's affected by slopes and uneven terrain."
             ]
          }
       ],
