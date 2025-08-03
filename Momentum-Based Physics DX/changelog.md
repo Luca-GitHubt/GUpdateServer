@@ -1,3 +1,9 @@
+## Momentum-Based Physics DX V1.5 - The Mazuri Update!
+- You can now choose between "Sonic Speed" physics and "Mainline" physics.
+- Sonic's wall jump is now faster and goes a little bit further.
+- Sonic's physics for the Egg Beatle boss fight has been added so its now 100% consistend with the rest of the game.
+- All day levels + DLC levels of Mazuri have been unscripted! GO NUTS! (I had to remove the chase sequences from Act 5 because these sequences are capping sonic's speed and theres no workaround for this other than removing them.)
+
 ## Momentum-Based Physics DX V1.4 - The Apotos Update!
 - More customization options have beed added.
 - Both drift versions have been adjusted a little.
