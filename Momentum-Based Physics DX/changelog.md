@@ -1,3 +1,10 @@
+## Momentum-Based Physics DX V1.6 - The Spagonia Update!
+- More customization options have been added.
+- Sonic now accelerates a bit faster when sky diving.
+- The Werehog now has 2 versions. One for all Controller Types and one for PlayStation Controllers to fix an issue with the Left Analog Stick.
+- All Day-Time Levels + DLC Levels of Spagonia have been unscripted. (Except for Act 2-2 DLC!) I can't even mod the level in the first place w/o it completly breaking so until i know the reason, this level has to wait sadly. Other than that, every day time level is done.
+- Sonic's physics for the Egg Devil Ray Boss fight are now 100% consistend with the rest of the game.
+
 ## Momentum-Based Physics DX V1.5 - The Mazuri Update!
 - You can now choose between "Sonic Speed" physics and "Mainline" physics.
 - Sonic's wall jump is now faster and goes a little bit further.
