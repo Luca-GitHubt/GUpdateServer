@@ -6,9 +6,9 @@
          "Elements":[
 			   {
                "Name":"IncludeDir0",
-               "DisplayName":"Drift + Speed Style",
+               "DisplayName":"Drift and Speed Style",
                "Description":[
-                  "Select which style of the Drift you wanna use."
+                  "Select which physics style and which drift you want to use."
                ],
                "Type":"Dir0",
                "MinValue":null,
@@ -24,13 +24,20 @@
                "Type":"Dir1",
                "MinValue":null,
                "MaxValue":null,
-               "DefaultValue":"./CameraSettings/"
+               "DefaultValue":"./CameraSettings/NoFOV/"
             },
             {
                "Name":"IncludeDir2",
                "DisplayName":"Unscripted Day-Time Levels",
                "Description":[
-                  "Choose if you want to use edited levels which removes many scripted segments fom the main levels. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
+                  "Choose if you want to use edited levels which removes many scripted segments fom all day-time main levels.",
+                  "",
+                  "Current Continents Include:",
+                  "Apotos",
+                  "Mazuri",
+                  "Spagonia",
+                  "",
+                  "(DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
                ],
                "Type":"Dir2",
                "MinValue":null,
@@ -41,7 +48,14 @@
                "Name":"IncludeDir3",
                "DisplayName":"Unscripted DLC Day-Time Levels",
                "Description":[
-                  "Choose if you want to use edited levels which removes many scripted segments fom the DLC levels. (DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
+                  "Choose if you want to use edited levels which removes many scripted segments fom all day-time DLC levels.",
+                  "",
+                  "Current Continents Include:",
+                  "Apotos",
+                  "Mazuri",
+                  "Spagonia",
+                  "",
+                  "(DISABLE THIS WHEN USING CUSTOM LEVEL MODS)."
                ],
                "Type":"Dir3",
                "MinValue":null,
@@ -93,7 +107,7 @@
    "Enums":{
       "Dir0":[
          {
-            "DisplayName":"No Physics Changes",
+            "DisplayName":"-No Physics Changes-",
             "Value":"./None/",
             "Description":[
                "If you don't wanna play with any changes to sonic's physics... for some reason. >_>"
@@ -114,7 +128,18 @@
             "Description":[
                "This version is more loose and more comfortable to control but can be harder to master and doesn't feel as responsive at lower speeds. Choose the ''Tight'' version if you feel like this drift isn't responsive enough.",
                "",
-               "Sonic's starting speed when boosting and air boosting is unchanged but in return he can't reach sonic speed anymore. (He's still get's affected by slopes and uneven terrain."
+               "Sonic's starting speed when boosting and air boosting is unchanged but in return he can't reach sonic speed anymore. (He's still get's affected by slopes and uneven terrain.)"
+            ]
+         },
+         {
+            "DisplayName":"Cinematic Drift (Vanilla Speed)",
+            "Value":"./DriftVersion/CinematicVanilla/",
+            "Description":[
+               "This version is more loose and more comfortable to control but can be harder to master and doesn't feel as responsive at lower speeds. Choose the ''Tight'' version if you feel like this drift isn't responsive enough.",
+               "",
+               "Sonic's default max speed is unchanged as well as any changes to the boost but you keep the improved controls and momentum changes.",
+               "",
+               "Choose this if you don't want sonic to get faster the longer youre boosting."
             ]
          },
 		   {
@@ -132,13 +157,31 @@
             "Description":[
                "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is too fast or too hard to control, try the ''Cinematic'' version.",
                "",
-               "Sonic's starting speed when boosting and air boosting is unchanged but in return he can't reach sonic speed anymore. (He's still get's affected by slopes and uneven terrain."
+               "Sonic's starting speed when boosting and air boosting is unchanged but in return he can't reach sonic speed anymore. (He's still get's affected by slopes and uneven terrain.)"
+            ]
+         },
+         {
+            "DisplayName":"Tight Drift         (Vanilla Speed)",
+            "Value":"./DriftVersion/TightVanilla/",
+            "Description":[
+               "This version is more snappy and precise but can be harder to control at higher speeds. If you feel like this drift is too fast or too hard to control, try the ''Cinematic'' version.",
+               "",
+               "Sonic's default max speed is unchanged as well as any changes to the boost but you keep the improved controls and momentum changes.",
+               "",
+               "Choose this if you don't want sonic to get faster the longer youre boosting."
             ]
          }
       ],
       "Dir1":[
          {
             "DisplayName":"Enabled",
+            "Value":"./CameraSettings/NoFOV/",
+            "Description":[
+               "Puts the camera farther away for both 3D and 2D so you have a better view."
+            ]
+         },
+         {
+            "DisplayName":"Enabled + FOV",
             "Value":"./CameraSettings/",
             "Description":[
                "Puts the camera farther away for both 3D and 2D so you have a better view and increases the FOV a little."
@@ -206,6 +249,15 @@
             "Value":"./BonusContent/WherehogImprovedPhysics/",
             "Description":[
                "Slightly improves the Werehogs controls like a slightly higher double jump, a farther dash jump, way less ice slippering, infinite EXP orb collect range and higher quality fur."
+            ]
+         },
+         {
+            "DisplayName":"Enabled (DualShock/DualSense Fix)",
+            "Value":"./BonusContent/WherehogImprovedPhysics/PlayStationFix/",
+            "Description":[
+               "Slightly improves the Werehogs controls like a slightly higher double jump, a farther dash jump, way less ice slippering, infinite EXP orb collect range and higher quality fur.",
+               "",
+               "USE THIS IF YOU ARE USING A PLAYSTATION CONTROLLER"
             ]
          },
          {
