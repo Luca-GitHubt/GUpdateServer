@@ -1,5 +1,5 @@
 ## Momentum-Based Physics DX V1.8 - The Chun-Nan + Holoska Update!
-All Day-Time levels of Chun-Nan AND Holoska have been successfully unscripted! (Except for Cool Edge, Act 4 DLC. It's the same issue as with Rooftop Run. The loading triggers don't work properly when modding this level.)
+- All Day-Time levels of Chun-Nan AND Holoska have been successfully unscripted! (Except for Cool Edge, Act 4 DLC. It's the same issue as with Rooftop Run. The loading triggers don't work properly when modding this level.)
 
 ## Momentum-Based Physics DX V1.6 - The Spagonia Update!
 - More customization options have been added.
